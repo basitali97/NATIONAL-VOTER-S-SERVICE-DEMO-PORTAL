@@ -1,0 +1,351 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <form action="" onreset="Captcha();" onload="Captcha();">
+            <div class="row" style="background-color: rgb(71, 65, 65);">
+            <div class="col-sm-2">
+                <center><img src="logo1.png" style="height:100px;width: 120px;padding: 5px;"></center>
+            </div>
+            <div class="col-md-3" style="background-color:rgb(71, 65, 65);">
+                <center><h3 style="color: white;">राष्ट्रीय मतदाता सेवा </h3></center>
+                <center><h3 style="color: white;">डेमो पोर्टल</h3></center>
+            </div>
+            <div class="col-md-5" style="background-color: rgb(71, 65, 65);color: white;">
+                <center><h3>NATIONAL VOTER'S SERVICE </h3></center>
+                <center><h3>DEMO PORTAL</h3></center>
+            </div>
+            <div class="col-sm-2">
+                <center><img src="logo2.png" style="height:100px;width: 120px;padding: 5px;"></center>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div style="border: 1px solid rgb(179, 177, 177);margin: 5px;padding: 10px 10px 10px 40px;border-radius: 5px;">
+                    <input type="submit" name="" id="zoomin" value="A+" style="padding-left: 20px;padding-right: 20px;">
+                    <input type="submit" name="" id="zoomout" value="A-" style="padding-left: 20px;padding-right: 20px;margin-left: 40px;">
+                    <div style="float: right;margin-right: 40px;">
+                        <label for="">Select Language :</label>
+                        <select name="" id="">
+                            <option value="Elang">English</option>
+                            <option value="Hlang">Hindi</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10"><h3 style="color: red;">Note: Fields marked with asterisks ( * ) are mandatory</h3></div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                <div style="border: 1px solid black;border-radius: 10px;background-color: rgb(235, 232, 232);">
+                    <div style="background-color: rgb(197, 194, 194);margin: 10px 10px 0px 10px;padding: 3px;border-radius: 5px;">
+                        <h5 style="margin-left: 20px;">Type 6</h5>                      
+                        <h5 style="margin-left: 20px;">[See rule 13(1) and 26]</h5>
+                    </div>
+                    <div style="background-color: rgb(233, 158, 158);margin: 0px 10px 20px 10px;padding: 10px;border-radius: 5px;">
+                        <h5 style="margin-left: 20px;">Application for inclusion of name in the electoral roll for the first time due to the transfer of voter or any other constituency from any one constituency</h5>
+                    </div>
+                    <div style="margin-left:10px ;">
+                        <p style="margin-bottom: 20px;">In service</p>
+                        <p>Electoral Registration Officer,</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            <label for="">State <font color="red">*</font></label>
+                            <select name="" id="">
+                                <option value="Select">Select</option>
+                            </select>
+                            <label for="" style="margin-left: 40px;">District <font color="red">*</font></label>
+                            <select name="" id="">
+                                <option value="Select">Select</option>
+                            </select><br>
+                            <label for="">Legislative Assembly / Parlimentary constituency<font color="red">*</font> </label>
+                            <select name="" id="">
+                                <option value="Select">Select</option>
+                            </select><br>
+                        </div>
+                    </div>
+                    <div >
+                        <p style="margin: 20px 0px 20px 10px;">I request that my name be included in electoral rolls for all the aforesaid areas.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            <input type="radio" id="fvoter" name="voter" value="fvoter">
+                            <label for="fvoter">First time voter</label><br>
+                            <input type="radio" id="ovoter" name="voter" value="ovoter">
+                            <label for="ovoter">Due to transfer from other meeting areas.</label><br>
+                        </div>
+                    </div>
+                    <div style="margin: 30px 0px 20px 10px;">
+                        <p>Below are specifications in support of my claim to be included in the electoral rolls.</p>
+                    </div>
+                    <div style="background-color: rgb(233, 158, 158);margin: 0px 10px 20px 10px;padding: 10px;border-radius: 5px;">
+                        <h5 style="margin-left: 20px;">Mandatory specifications</h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">(A) Name <font color="red">*</font></label>
+                                <input type="text" name="" id="" placeholder="(In English)" required>
+                                <input type="text" name="" id="" placeholder="(In Regional)" required>
+                                <button><i class="fa fa-keyboard-o" style="font-size:25px"></i></button>
+                            </div>
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">(B) Surname (if any) <font color="red">*</font></label>
+                                <input type="text" name="" id="" placeholder="(In English)" required>
+                                <input type="text" name="" id="" placeholder="(In Regional)" required>
+                                <button><i class="fa fa-keyboard-o" style="font-size:25px"></i></button>
+                            </div>
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">(C) Name of the applicant's relative <font color="red">*</font></label>
+                                <input type="text" name="" id="" placeholder="(In English)" required>
+                                <input type="text" name="" id="" placeholder="(In Regional)" required>
+                                <button><i class="fa fa-keyboard-o" style="font-size:25px"></i></button>
+                            </div>
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">Nickname of the applicant's relative <font color="red">*</font></label>
+                                <input type="text" name="" id="" placeholder="(In English)" required>
+                                <input type="text" name="" id="" placeholder="(In Regional)" required>
+                                <button><i class="fa fa-keyboard-o" style="font-size:25px"></i></button>
+                            </div>
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">(D) Type of the relationship <font color="red">*</font></label>
+                                <select name="" id="">
+                                    <option value="select">Select</option>
+                                </select>
+                            </div>
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <input type="radio" name="Age"><label for="">(E) Age [on January 1 of the current calender] <font color="red">*</font></label>
+                                <input type="text">
+                                <select name="" id="">
+                                    <option value="Year">Year</option>
+                                </select>
+                                <select name="" id="">
+                                    <option value="month">Month</option>
+                                </select>
+                            </div>   
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <h2>OR</h2>
+                            </div>    
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <input type="radio" name="Age"><label for="">(F) Date of birth (in the form of day/ month/ year) (if known) <font color="red">*</font></label>
+                                <input type="date" id="age" name="age">
+                            </div>    
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">(G) Applicant's gender <font color="red">*</font></label>
+                                <select name="" id="">
+                                    <option value="select">Select</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div> 
+                        </div>
+                    </div>
+                    <div style="background-color: rgb(233, 158, 158);margin: 0px 10px 20px 10px;padding: 10px;border-radius: 5px;">
+                        <h5 style="margin-left: 20px;">(H) Current address, whose applicant is nominally resident</h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">House No.<font color="red">*</font></label>
+                                <input type="text" name="" id="" placeholder="(In English)" required>
+                                <input type="text" name="" id="" placeholder="(In Regional)" required>
+                                <button><i class="fa fa-keyboard-o" style="font-size:25px"></i></button>
+                            </div>
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">Street / area / location <font color="red">*</font></label>
+                                <input type="text" name="" id="" placeholder="(In English)" required>
+                                <input type="text" name="" id="" placeholder="(In Regional)" required>
+                                <button><i class="fa fa-keyboard-o" style="font-size:25px"></i></button>
+                            </div>
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">City / Village: <font color="red">*</font></label>
+                                <input type="text" name="" id="" placeholder="(In English)" required>
+                                <input type="text" name="" id="" placeholder="(In Regional)" required>
+                                <button><i class="fa fa-keyboard-o" style="font-size:25px"></i></button>
+                            </div>
+                            <div style="margin: 20px 0px 10px 0px;">
+                               <label for="">Post Office: <font color="red">*</font></label>
+                                <input type="text" name="" id="" placeholder="(In English)" required>
+                                <input type="text" name="" id="" placeholder="(In Regional)" required>
+                                <button><i class="fa fa-keyboard-o" style="font-size:25px"></i></button>
+                            </div> 
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">Pin Code:<font color="red">*</font></label>
+                                <input type="text" required>
+                             </div> 
+                             <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">State / Union Territory<font color="red">*</font></label>
+                                <select name="" id="">
+                                    <option value="select">Select</option>
+                                </select>
+                             </div> 
+                             <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">District<font color="red">*</font></label>
+                                <select name="" id="">
+                                    <option value="select">Select</option>
+                                </select>
+                             </div>  
+                        </div>
+                    </div>
+                    <hr style="border-top: 1px solid rgb(173, 172, 172);margin: 0 10px 0 10px;">
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            <label for="" style="margin: 20px 0px 20px 0;">Family / Neighbour Epic No.</label><input type="text">
+                        </div>
+                    </div>
+                    <hr style="border-top: 1px solid rgb(173, 172, 172);margin: 0 10px 20px 10px;">
+                    <div style="background-color: rgb(233, 158, 158);margin: 0px 10px 20px 10px;padding: 10px;border-radius: 5px;">
+                        <h5 style="margin-left: 20px;">Optional specialties</h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">(T) Disability (if any)</label>
+                            </div>
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <input type="checkbox"><label for="">Visual impairment</label>
+                                <input type="checkbox"><label for="">Speech and hearing impairment</label>
+                                <input type="checkbox"><label for="">Motion disabling </label>
+                                <input type="checkbox"><label for="">other </label>
+                                <input type="text" placeholder="mention it">
+                            </div>
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">(Th) Email ID (optional)</label>
+                                <input type="text">
+                            </div>
+                            <div style="margin: 20px 0px 10px 0px;">
+                               <label for="">(D) mobile number (optional)   +91</label>
+                                <input type="text" name="" id="">
+                            </div> 
+                        </div>
+                    </div>
+                    <div style="background-color: rgb(233, 158, 158);margin: 0px 10px 20px 10px;padding: 10px;border-radius: 5px;">
+                        <h5 style="margin-left: 20px;">Upload supporting documents (Supported formats .jpg, .png, .bmp, .jpeg) (max. 2MB) </h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">Your Photo <font color="red">*</font></label>
+                                <input type="file" name="myfile" required>
+                            </div>
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">Age Proof <font color="red">*</font></label>
+                                <input type="file" name="myfile" required>                                
+                                <label for="">Documment Type <font color="red">*</font></label>
+                                <select name="" id="">
+                                    <option value="select">Select</option>
+                                </select>
+                            </div>
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">Address Proof<font color="red">*</font></label>
+                                <input type="file" name="myfile" required>                                
+                                <label for="">Documment Type <font color="red">*</font></label>
+                                <select name="" id="">
+                                    <option value="select">Select</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="background-color: rgb(233, 158, 158);margin: 0px 10px 40px 10px;padding: 10px;border-radius: 5px;">
+                        <h5 style="margin-left: 20px;">Declaration</h5>
+                    </div>
+                    <p style="margin-left: 10px;">I declare I declare that according to my best knowledge and belief</p><br>
+                    <p style="margin-left: 10px;">I am a citizen of India and of my birth;</p>
+
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">City / Village:  <font color="red">*</font></label>
+                                <input type="text" required>
+                            </div>
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">Select state  <font color="red">*</font></label>
+                                <select name="" id="">
+                                    <option value="select">Select</option>
+                                </select>
+                                <label for="">District  <font color="red">*</font></label>
+                                <select name="" id="">
+                                    <option value="select">Select</option>
+                                </select>
+                            </div>
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">Date<font color="red">*</font></label>
+                                <input type="date" required>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="margin-left: 10px;">(ii) I am a nominally resident in the address given in the above (date, month, year) above;</p><br>
+                    <p style="margin-left: 10px;">I have not applied to include my name in the electoral roll for any other constituency;</p>
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <p><input type="radio" name="Age">(iv) My name has not been already included in the electoral roll for this or any other assembly / parliamentary constituency</p>
+                            </div>   
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <h2>OR</h2>
+                            </div>    
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <p><input type="radio" name="Age">My name would have been included in electoral rolls of the State's constituency, in which I was already residing in the address mentioned below, and if so, then I request that it be removed from that electoral roll. Go.</p>
+                            </div>                               
+                        </div>
+                    </div>
+                    <hr style="border-top: 1px solid rgb(173, 172, 172);margin: 20px 20px 30px 10px;">
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">Location <font color="red">*</font></label>
+                                <input type="text" required>
+                                <label for="">Date <font color="red">*</font></label>
+                                <input type="date" required>
+                            </div>                                 
+                        </div>
+                    </div>
+                    <p style="margin-left: 10px;">I am afraid that the statement or declaration, which is false, to whom I know it or believe that it is false or I do not believe in being true, the People's Representation Act, 1950 (43 of 1950 ) Is punishable under section 31</p><br>
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            <div style="margin: 20px 0px 10px 0px;">
+                                <label for="">Captcha  </label>
+                                <input type="image" src="captcha.jpeg" required/>&nbsp;
+                                <i class="fa fa-refresh"></i>&nbsp;&nbsp;
+                                <input type="text" id="txtInput" ondrop="return false;" onpaste="return false;" required/>
+                            </div>                                 
+                        </div>
+                    </div>
+                    <center><input type="reset" value="Reset" style="background-color: rgb(60, 197, 60);border: 0px;border-radius: 3px;margin-bottom: 20px;">&nbsp;
+                        <button style="background-color: rgb(60, 197, 60);border: 0px;border-radius: 3px;margin-bottom: 20px;">Submit</button>
+                    </center>
+                </div>
+            </div>
+            </form>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div style="background-color: black;color: white;margin-top: 10px;padding: 20px;">
+                    <center><p>Copyright &copy; 2019 Suven Consultants and Technology Pvt. Ltd</p></center>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
